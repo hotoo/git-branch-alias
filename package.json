@@ -1,0 +1,26 @@
+{
+  "name": "git-branch-alias",
+  "version": "1.0.0",
+  "description": "branch-alias subcommand for git",
+  "bin": "bin/git-branch-alias",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall" : "git config --global alias.bralias '!git-branch-alias'",
+    "postuninstall" : "git config --global --unset alias.bralias"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hotoo/git-branch-alias.git"
+  },
+  "keywords": [
+    "Git",
+    "Branch",
+    "Alias"
+  ],
+  "author": "闲耘 <hotoo.cn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hotoo/git-branch-alias/issues"
+  },
+  "homepage": "https://github.com/hotoo/git-branch-alias#readme"
+}
