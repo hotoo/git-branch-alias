@@ -1,6 +1,6 @@
 {
   "name": "git-branch-alias",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "branch-alias subcommand for git",
   "bin": "bin/git-branch-alias",
   "scripts": {
