@@ -17,7 +17,8 @@ ${command} [ --delete | -d ] <alias>
 
 Creates a symbolic reference `<alias>` referring to `<branch>`.
 
-`<branch>` defaults to the current checked-out branch.
+- `${command}` is `git-branch-alias`, `git branch-alias` or `git bralias`.
+- `<branch>` defaults to the current checked-out branch.
 
 This symbolic reference acts as an alias for `<branch>`, and can be
 used in its place. More specifically, it WILL be dereferenced to
