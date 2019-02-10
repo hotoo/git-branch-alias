@@ -71,7 +71,7 @@ symref=$1
 branch=$2
 
 if [ -n "${list}" ]; then
-    echo $(git branch | grep -e '->' --color=no)
+    echo "$(git branch | grep -e '->' --color=no)"
     exit 0
 fi
 
