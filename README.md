@@ -4,6 +4,17 @@ branch-alias subcommand for git
 
 ## Install
 
+by Homebrew:
+
+```shell
+brew tap hotoo/tap
+brew install git-branch-alias
+```
+
+> see [hotoo/tap](https://github.com/hotoo/homebrew-tap)
+
+by npm:
+
 ```
 npm i git-branch-alias -g
 ```
